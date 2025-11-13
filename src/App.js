@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>🛍️ Product Catalog</h1>
+      <h1>🛍️It's WALE WALE Product Catalog</h1>
 
       <div className="filters">
         <SearchBar search={search} setSearch={setSearch} />

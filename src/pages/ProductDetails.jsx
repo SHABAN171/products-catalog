@@ -12,7 +12,7 @@ const ProductDetails = () => {
     <div className="product-details">
       <h2>{product.name}</h2>
       <img src={product.image} alt={product.name} width="300" />
-      <p>Price: ${product.price}</p>
+      <p>Price: Tsh{product.price}</p>
       <p>Category: {product.category}</p>
       <p>{product.description}</p>
       <Link to="/">Back to Products</Link>

@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => {
       <img src={product.image} alt={product.name} />
       <div className="product-info">
         <h3>{product.name}</h3>
-        <p>${product.price.toFixed(2)}</p>
+        <p>Tsh{product.price.toLocaleString()}</p>
         <button>View Details</button>
       </div>
     </div>
